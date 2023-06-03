@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+     <!-- Krakter ayarı -->
+     <meta charset="UTF-8">
+     <!--  microsfoft tarayıcı -->
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- her ciahaza göre ayarlama scale zoom -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <!--Seo İçin-->
+       <meta name="author" content="Kaan Kaltakkıran">
+       <meta name="description"content="Container Satış">
+       <meta name="keywords"content="web,tasarım,container,satış">
+     <!-- Bootsrap Css -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+     <!-- icon css -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+      <!--  Ana Css -->
+     <link rel="stylesheet" href="./public/css/styles.css">
+       <!--  Ana LigthtBoxCss -->
+           <link rel="stylesheet" href="./public/css/lightbox.css">
+     <!--İcon-->
+     <link rel="icon" href="./public/images/Icon.png">
+    <title>Container</title>
+</head>
+<body>
+<!--!Navbar Start-->
+    <nav class="navbar navbar-expand-lg navbar bg-primary sticky-top" data-bs-theme="dark" id="mainNavbar">
+        <div class="container-fluid">
+            <a class="navbar-brand text-uppercase ms-5 " title="Bootstrap Web Site" href="/index.html">Bootstrap</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#myNavbar" aria-controls="#myNavbar" aria-expanded="false" aria-label="menüyü açma kapama butonun">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="offcanvas offcanvas-end bg-primary" data-bs-theme="dark"  tabindex="-1" id="myNavbar" aria-labelledby="myLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title text-white" id="myLabel">Container</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Kapat">
+                </button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav ms-auto text-uppercase py-lg-2">
+                    <li class="nav-item me-2"><a href="/" class="nav-link   btn-close-canvas">Anasayfa</a></li>
+                    <li class="nav-item me-2"><a href="/container.html" class="nav-link active  btn-close-canvas">Container</a></li>
+                    <li class="nav-item me-2"><a href="/contact.html" class="nav-link btn-close-canvas">İletişim</a></li>
+                    <li class="nav-item me-2"><a href="/contact3.html" class="nav-link  btn-close-canvas">Bize Ulaşın</a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+         <!--!Navbar End-->
+      <!--!Container Modal Start-->
+    <section id="containerModal" class="mySection ">
+      <div class="container">
+          <div class="text-center mb-5">
+              <h2 class="s-heading text-uppercase fw-bold text-danger mt-3">
+                Ürün Çeşitleri
+                <span class="badge bg-danger">New</span>
+            </h2>
+              <h3 class="s-subheading text-muted">Her İhtiyaca Göre Ürün Çeşitleri</h3>
+          </div>
+          <div class="row gy-4">
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="modal-item">
+                      <a href="#PModal1" class="modal-link" data-bs-toggle="modal">
+                          <div class="modal-hover">
+                              <div class="ph-content text-white">
+                                  <i class="bi bi-plus-lg"></i>
+                              </div>
+                          </div>
+                          <img class="img-fluid" src="/public/images/product_1.jpg" alt="Birinci Tip Konteyner Dış Görünümü" />
+                      </a>
+                      <div class="modal-caption text-center bg-white p-4">
+                          <div class="modal-heading">Birinci Ürün</div>
+                          <div class="modal-subheading text-muted fst-italic">Birinci Ürün Görünümü</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="modal-item">
+                      <a href="#PModal2" class="modal-link" data-bs-toggle="modal">
+                          <div class="modal-hover">
+                              <div class="ph-content text-white">
+                                  <i class="bi bi-plus-lg"></i>
+                              </div>
+                          </div>
+                          <img class="img-fluid" src="/public/images/product_2.jpg" alt="Birinci Tip Konteyner İç Görünümü" />
+                      </a>
+                        <div class="modal-caption text-center bg-white p-4">
+                          <div class="modal-heading">İkinci Ürün</div>
+                          <div class="modal-subheading text-muted fst-italic">İkinci Ürün Görünümü</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="modal-item">
+                      <a href="#PModal3" class="modal-link" data-bs-toggle="modal">
+                          <div class="modal-hover">
+                              <div class="ph-content text-white">
+                                  <i class="bi bi-plus-lg"></i>
+                              </div>
+                          </div>
+                          <img class="img-fluid" src="/public/images/product_3.jpg" alt="Birinci Tip Konteyner Ayrıntılı Görünümü" />
+                      </a>
+                         <div class="modal-caption text-center bg-white p-4">
+                          <div class="modal-heading">Üçüncü Ürün</div>
+                          <div class="modal-subheading text-muted fst-italic">Üçüncü Ürün Görünümü</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="modal-item">
+                      <a href="#PModal4" class="modal-link" data-bs-toggle="modal">
+                          <div class="modal-hover">
+                              <div class="ph-content text-white">
+                                  <i class="bi bi-plus-lg"></i>
+                              </div>
+                          </div>
+                          <img class="img-fluid" src="/public/images/product_4.jpg" alt="İkinci Tip Konteyner Dış Görünümü" />
+                      </a>
+                         <div class="modal-caption text-center bg-white p-4">
+                          <div class="modal-heading">Dördüncü Ürün</div>
+                          <div class="modal-subheading text-muted fst-italic">Dördüncü Ürün Görünümü</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="modal-item">
+                      <a href="#PModal5" class="modal-link" data-bs-toggle="modal">
+                          <div class="modal-hover">
+                              <div class="ph-content text-white">
+                                  <i class="bi bi-plus-lg"></i>
+                              </div>
+                          </div>
+                          <img class="img-fluid" src="/public/images/product_5.jpg" alt="Birinci Tip Konteyner İç Görünümü" />
+                      </a>
+                        <div class="modal-caption text-center bg-white p-4">
+                          <div class="modal-heading">Beşinci Ürün</div>
+                          <div class="modal-subheading text-muted fst-italic">Beşinci Ürün Görünümü</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="modal-item">
+                      <a href="#PModal6" class="modal-link" data-bs-toggle="modal">
+                          <div class="modal-hover">
+                              <div class="ph-content text-white">
+                                  <i class="bi bi-plus-lg"></i>
+                              </div>
+                          </div>
+                          <img class="img-fluid" src="/public/images/product_6.jpg" alt="Birinci Tip Konteyner Ayrıntılı Görünümü" />
+                      </a>
+                         <div class="modal-caption text-center bg-white p-4">
+                          <div class="modal-heading">Altıncı Ürün</div>
+                          <div class="modal-subheading text-muted fst-italic">Altıncı Ürün Görünümü</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="modal-item">
+                      <a href="#PModal7" class="modal-link" data-bs-toggle="modal">
+                          <div class="modal-hover">
+                              <div class="ph-content text-white">
+                                  <i class="bi bi-plus-lg"></i>
+                              </div>
+                          </div>
+                          <img class="img-fluid" src="/public/images/product_7.jpg" alt="Üçüncü Tip Konteyner Dış Görünümü" />
+                      </a>
+                          <div class="modal-caption text-center bg-white p-4">
+                          <div class="modal-heading">Yedinci Ürün</div>
+                          <div class="modal-subheading text-muted fst-italic">Yedinci Ürün Görünümü</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="modal-item">
+                      <a href="#PModal8" class="modal-link" data-bs-toggle="modal">
+                          <div class="modal-hover">
+                              <div class="ph-content text-white">
+                                  <i class="bi bi-plus-lg"></i>
+                              </div>
+                          </div>
+                          <img class="img-fluid" src="/public/images/product_8.jpg" alt="Üçüncü Tip Konteyner İç Görünümü" />
+                      </a>
+                          <div class="modal-caption text-center bg-white p-4">
+                          <div class="modal-heading">Sekizinci Ürün</div>
+                          <div class="modal-subheading text-muted fst-italic">Sekizinci Ürün Görünümü</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="modal-item">
+                      <a href="#PModal9" class="modal-link" data-bs-toggle="modal">
+                          <div class="modal-hover">
+                              <div class="ph-content text-white">
+                                  <i class="bi bi-plus-lg"></i>
+                              </div>
+                          </div>
+                          <img class="img-fluid" src="/public/images/product_9.jpg" alt="Üçüncü Tip Konteyner Ayrıntılı Görünümü" />
+                      </a>
+                      <div class="modal-caption text-center bg-white p-4">
+                          <div class="modal-heading">Dokuzuncu Ürün</div>
+                          <div class="modal-subheading text-muted fst-italic">Dokuzuncu Ürün Görünümü</div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!--!Container Modal End-->
+  </section>
+  <!--!containerModal Modals-->
+    
+    <!-- portfolio modal item 1-->
+    <div class="modal fade p-modal" id="PModal1" tabindex="-1" role="dialog" aria-labelledby="myTitle1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content text-center py-5 mt-2">
+                <div class="text-end mx-4 mb-3 fs-3">
+                  <div class="close-modal" data-bs-dismiss="modal" aria-label="Kapat">
+                    <img src="public/images/close-icon.svg" alt="Kapatma Butonu" />
+                </div>
+                  
+            </div>
+                <div class="modal-body">
+                  <!--   <h2 class="text-uppercase mb-3" id="myTitle1">Birinci Tip Konteyner</h2> -->
+                    <h1 class="text-uppercase mb-3" id="myTitle1">Birinci Ürün <span class="badge bg-danger">New İtem</span></h1>
+
+                    <p class="p-intro text-muted mb-4 fst-italic">Birinci Tip Ürün  Görünümü</p>
+                    
+                    <a href="product-1.html">
+                    <img class="img-fluid d-block mx-auto" src="/public/images/product_1.jpg" alt="Birinci Tip Konteyner Dış Görünümü" />
+                </a>
+                    <p class="my-4 col-lg-6 mx-auto"> Bu birinci tip Ürün sunduğu özelliklere göre ortlama bir üründür.
+                    </p>
+                    
+                    <ul class="list-inline mb-4">
+                        <li><strong>Kategori:</strong> Birinci Tip Ürün</li>
+                        <li><strong >Fiyat:</strong> 10.000 &#x20BA;</li>
+                    </ul>
+                    
+                    <a class="btn btn-danger btn-lg text-uppercase py-3" href="product-1.html" role="button">Ürün Sayfasına Git <i class="bi bi-cart"></i></a>
+
+                    
+
+                <!--     <a class="btn btn-danger btn-lg text-uppercase py-3" href="#" role="button">Daha Fazla Görsel <i class="bi bi-cart"></i></a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portfolio modal item 2-->
+    <div class="modal fade p-modal" id="PModal2" tabindex="-1" role="dialog" aria-labelledby="myTitle2"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg  modal-dialog-scrollable">
+            <div class="modal-content text-center py-5 mt-2">
+                <div class="text-end mx-4 mb-3 fs-3">
+                  <div class="close-modal" data-bs-dismiss="modal" aria-label="Kapat">
+                    <img src="public/images/close-icon.svg" alt="Kapatma Butonu" />
+                </div>
+                </div>
+
+                <div class="modal-body">
+                    <h2 class="text-uppercase mb-3" id="myTitle1">Birinci Tip Konteyner</h2>
+                    <p class="p-intro text-muted mb-4 fst-italic">Birinci Tip Konteyner İç Görünümü</p>
+                    
+                    <img class="img-fluid d-block mx-auto" src="/public/images/Container.jpg" alt="Birinci Tip Konteyner İç Görünümü" />
+                    <p class="my-4 col-lg-6 mx-auto"> Bu birinci tip konteyner sunduğu özelliklere göre ortlama bir üründür.
+                    </p>
+                    <ul class="list-inline mb-4">
+                        <li><strong>Kategori:</strong> Birinci Tip Konteyner</li>
+                        <li><strong >Fiyat:</strong> 10.000 &#x20BA;</li>
+                    </ul>
+                    <a class="btn btn-danger btn-lg text-uppercase py-3" href="#" role="button">Sepete Ekle <i class="bi bi-cart"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- portfolio modal item 3-->
+    <div class="modal fade p-modal" id="PModal3" tabindex="-1" role="dialog" aria-labelledby="myTitle3"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg  modal-dialog-scrollable">
+            <div class="modal-content text-center py-5 mt-2">
+                <div class="text-end mx-4 mb-3 fs-3">
+                  <div class="close-modal" data-bs-dismiss="modal" aria-label="Kapat">
+                    <img src="public/images/close-icon.svg" alt="Kapatma Butonu" />
+                </div>
+                </div>
+
+                <div class="modal-body">
+                    <h2 class="text-uppercase mb-3" id="myTitle1">Birinci Tip Konteyner</h2>
+                    <p class="p-intro text-muted mb-4 fst-italic">Birinci Tip Konteyner Ayrıntılı Görünümü</p>
+                    <img class="img-fluid d-block mx-auto" src="/public/images/Container.jpg" alt="Birinci Tip Konteyner Ayrıntılı Görünümü"/>
+                    <p class="my-4 col-lg-6 mx-auto"> Bu birinci tip konteyner sunduğu özelliklere göre ortlama bir üründür.
+                    </p>
+                    <ul class="list-inline mb-4">
+                        <li><strong>Kategori:</strong> Birinci Tip Konteyner</li>
+                        <li><strong >Fiyat:</strong> 10.000 &#x20BA;</li>
+                    </ul>
+                    <a class="btn btn-danger btn-lg text-uppercase py-3" href="#" role="button">Sepete Ekle <i class="bi bi-cart"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- portfolio modal item 4-->
+    <div class="modal fade p-modal" id="PModal4" tabindex="-1" role="dialog" aria-labelledby="myTitle4"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg  modal-dialog-scrollable">
+            <div class="modal-content text-center py-5 mt-2">
+                <div class="text-end mx-4 mb-3 fs-3">
+                  <div class="close-modal" data-bs-dismiss="modal" aria-label="Kapat">
+                    <img src="public/images/close-icon.svg" alt="Kapatma Butonu" />
+                </div>
+                </div>
+
+                <div class="modal-body">
+                    
+                    <h2 class="text-uppercase mb-3" id="myTitle1">İkinci Tip Konteyner</h2>
+                    <p class="p-intro text-muted mb-4 fst-italic">İkinci Tip Konteyner İç Görünümü</p>
+                    <img class="img-fluid d-block mx-auto w-50" src="/public/images/Container-2.jpg" alt="İkinci Tip Konteyner İç Görünümü" />
+                    <p class="my-4 col-lg-6 mx-auto"> Bu İkinci tip konteyner sunduğu özelliklere göre fiyat performans üründür.
+                    </p>
+                    <ul class="list-inline mb-4">
+                        <li><strong>Kategori:</strong> İkinci Tip Konteyner</li>
+                        <li><strong >Fiyat:</strong> 15.000 &#x20BA</li>
+                    </ul>
+                    <a class="btn btn-danger btn-lg text-uppercase py-3" href="#" role="button">Sepete Ekle <i class="bi bi-cart"></i></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portfolio modal item 5-->
+    <div class="modal fade p-modal" id="PModal5" tabindex="-1" role="dialog" aria-labelledby="myTitle5"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg  modal-dialog-scrollable">
+            <div class="modal-content text-center py-5 mt-2">
+                <div class="text-end mx-4 mb-3 fs-3">
+                  <div class="close-modal" data-bs-dismiss="modal" aria-label="Kapat">
+                    <img src="public/images/close-icon.svg" alt="Kapatma Butonu" />
+                </div>
+                </div>
+
+                <div class="modal-body">
+                   
+                    
+                    <h2 class="text-uppercase mb-3" id="myTitle1">İkinci Tip Konteyner</h2>
+                    <p class="p-intro text-muted mb-4 fst-italic">İkinci Tip Konteyner Dış Görünümü</p>
+                    <img class="img-fluid d-block mx-auto w-50" src="/public/images/Container-2.jpg" alt="İkinci Tip Konteyner Dış Görünümü" />
+                    <p class="my-4 col-lg-6 mx-auto"> Bu İkinci tip konteyner sunduğu özelliklere göre fiyat performans üründür.
+                    </p>
+                    <ul class="list-inline mb-4">
+                        <li><strong>Kategori:</strong> İkinci Tip Konteyner</li>
+                        <li><strong >Fiyat:</strong> 15.000 &#x20BA</li>
+                    </ul>
+           
+                    <a class="btn btn-danger btn-lg text-uppercase py-3" href="#" role="button">Sepete Ekle <i class="bi bi-cart"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- portfolio modal item 6-->
+    <div class="modal fade p-modal" id="PModal6" tabindex="-1" role="dialog" aria-labelledby="myTitle6"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg  modal-dialog-scrollable">
+            <div class="modal-content text-center py-5 mt-2">
+                <div class="text-end mx-4 mb-3 fs-3">
+                  <div class="close-modal" data-bs-dismiss="modal" aria-label="Kapat">
+                    <img src="public/images/close-icon.svg" alt="Kapatma Butonu" />
+                </div>
+                </div>
+                <div class="modal-body">
+                    <h2 class="text-uppercase mb-3" id="myTitle1">İkinci Tip Konteyner</h2>
+                    <p class="p-intro text-muted mb-4 fst-italic">İkinci Tip Konteyner Ayrıntılı Görünümü</p>
+                    <img class="img-fluid d-block mx-auto w-50" src="/public/images/Container-2.jpg" alt="İkinci Tip Konteyner Ayrıntılı Görünümü" />
+                    <p class="my-4 col-lg-6 mx-auto"> Bu İkinci tip konteyner sunduğu özelliklere göre fiyat performans üründür.
+                    </p>
+                    <ul class="list-inline mb-4">
+                        <li><strong>Kategori:</strong> İkinci Tip Konteyner</li>
+                        <li><strong >Fiyat:</strong> 15.000 &#x20BA</li>
+                    </ul>
+           
+                    <a class="btn btn-danger btn-lg text-uppercase py-3" href="#" role="button">Sepete Ekle <i class="bi bi-cart"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- portfolio modal item 7-->
+    <div class="modal fade p-modal" id="PModal7" tabindex="-1" role="dialog" aria-labelledby="myTitle1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg  modal-dialog-scrollable">
+            <div class="modal-content text-center py-5 mt-2">
+                <div class="text-end mx-4 mb-3 fs-3">
+                  <div class="close-modal" data-bs-dismiss="modal" aria-label="Kapat">
+                    <img src="public/images/close-icon.svg" alt="Kapatma Butonu" />
+                </div>
+            </div>
+                <div class="modal-body">
+                    <h2 class="text-uppercase mb-3" id="myTitle1">Üçüncü Tip Konteyner</h2>
+                    <p class="p-intro text-muted mb-4 fst-italic">Üçüncü Tip Konteyner Dış Görünümü</p>
+                    <img class="img-fluid d-block mx-auto w-50" src="/public/images/Container-3.jpg" alt="Üçüncü Tip Konteyner Dış Görünümü" />
+                    <p class="my-4 col-lg-6 mx-auto"> Bu Üçüncü tip Konteyner en kaliteli ürünüdür.
+                    </p>
+                    <ul class="list-inline mb-4">
+                        <li><strong>Kategori:</strong> Üçüncü Tip Konteyner</li>
+                        <li><strong >Fiyat:</strong> 20.000 &#x20BA;</li>
+                    </ul>
+                    <a class="btn btn-danger btn-lg text-uppercase py-3" href="#" role="button">Sepete Ekle <i class="bi bi-cart"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portfolio modal item 8-->
+    <div class="modal fade p-modal" id="PModal8" tabindex="-1" role="dialog" aria-labelledby="myTitle1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg  modal-dialog-scrollable">
+            <div class="modal-content text-center py-5 mt-2">
+                <div class="text-end mx-4 mb-3 fs-3">
+                  <div class="close-modal" data-bs-dismiss="modal" aria-label="Kapat">
+                    <img src="public/images/close-icon.svg" alt="Kapatma Butonu" />
+                </div>
+            </div>
+                <div class="modal-body">
+                    <h2 class="text-uppercase mb-3" id="myTitle1">Üçüncü Tip Konteyner</h2>
+                    <p class="p-intro text-muted mb-4 fst-italic">Üçüncü Tip Konteyner İç Görünümü</p>
+                    <img class="img-fluid d-block mx-auto w-50" src="/public/images/Container-3.jpg" alt="Üçüncü Tip Konteyner İç Görünümü" />
+                    <p class="my-4 col-lg-6 mx-auto"> Bu Üçüncü tip Konteyner en kaliteli ürünüdür.
+                    </p>
+                    <ul class="list-inline mb-4">
+                        <li><strong>Kategori:</strong> Üçüncü Tip Konteyner</li>
+                        <li><strong >Fiyat:</strong> 20.000 &#x20BA;</li>
+                    </ul>
+                    <a class="btn btn-danger btn-lg text-uppercase py-3" href="#" role="button">Sepete Ekle <i class="bi bi-cart"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portfolio modal item 9-->
+    <div class="modal fade p-modal" id="PModal9" tabindex="-1" role="dialog" aria-labelledby="myTitle1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg  modal-dialog-scrollable">
+            <div class="modal-content text-center py-5 mt-2">
+                <div class="text-end mx-4 mb-3 fs-3">
+                  <div class="close-modal" data-bs-dismiss="modal" aria-label="Kapat">
+                    <img src="public/images/close-icon.svg" alt="Kapatma Butonu" />
+                </div>
+            </div>
+                <div class="modal-body">
+                    <h2 class="text-uppercase mb-3" id="myTitle1">Üçüncü Tip Konteyner</h2>
+                    <p class="p-intro text-muted mb-4 fst-italic">Üçüncü Tip Konteyner Ayrıntılı Görünümü</p>
+                    <img class="img-fluid d-block mx-auto w-50" src="/public/images/Container-3.jpg" alt="Üçüncü Tip Konteyner Ayrıntılı Görünümü" />
+                    <p class="my-4 col-lg-6 mx-auto"> Bu Üçüncü tip Konteyner en kaliteli ürünüdür.
+                    </p>
+                    <ul class="list-inline mb-4">
+                        <li><strong>Kategori:</strong> Üçüncü Tip Konteyner</li>
+                        <li><strong >Fiyat:</strong> 20.000 &#x20BA;</li>
+                    </ul>
+                    <a class="btn btn-danger btn-lg text-uppercase py-3" href="#" role="button">Sepete Ekle <i class="bi bi-cart"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!--! Footer Start -->
+<footer class="bg-light">
+    <div class="container mt-4">
+      <div class="row justify-content-center text-center">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-sm-left">
+          <h3><strong>Hakkımızda</strong></h3>
+       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In dignissimos non</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-5 mt-sm-0 text-sm-left">
+          <h3 ><strong>Ödeme Yöntemleri</strong></h3>
+          <img class="img-fluid me-2 " width="40" height="40" src="https://img.icons8.com/office/40/visa.png" alt="visa"/>
+          <img class="img-fluid me-2 " width="40" height="40" src="https://img.icons8.com/fluency/48/credit-card-front.png" alt="credit-card-front"/>
+          <img class="img-fluid me-2 " width="40" height="40" src="https://img.icons8.com/office/40/bank-card-back-side.png" alt="bank-card-back-side"/>
+        </div>
+  
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-md-left mt-5 mt-md-0">
+          <h3 ><strong>İletişim</strong></h3>
+          <h4><i class="bi bi-telephone text-primary"></i> 0507 66 00 884</h4>
+  
+          <h4><i class="bi bi-envelope text-primary"></i> kaan@hotmail.com</h4>
+        </div>
+  
+        <div class="col-12 col-sm-6 col-lg-2 ml-auto text-lg-left mt-4 mt-sm-5 mt-lg-0 ">
+          <h3><strong>Sosyal Medya</strong></h3>
+          <p class="lead">
+            <a href="https://github.com/kaankaltakkiran" target="_blank" rel="noopener noreferrer" class="mx-2"><img width="35" height="35" src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook-new"/></a>
+            <a href="https://github.com/kaankaltakkiran" target="_blank" rel="noopener noreferrer" class="mx-2"><img width="35" height="35" src="https://img.icons8.com/fluency/48/twitter.png" alt="twitter"/></a>
+            <a href="https://github.com/kaankaltakkiran" target="_blank" rel="noopener noreferrer" class="mx-2"><img width="35" height="35" src="https://img.icons8.com/color/48/instagram-new--v1.png" alt="instagram-new--v1"/></a>
+            <a href="https://github.com/kaankaltakkiran" target="_blank" rel="noopener noreferrer" class="mx-2"><img class="mt-lg-3" width="35" height="35" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/></a>
+            <a href="https://github.com/kaankaltakkiran" target="_blank" rel="noopener noreferrer" class="mx-2"><img class="mt-lg-3" width="35" height="35" src="https://img.icons8.com/color/48/youtube-play.png" alt="youtube-play"/></a>
+            <a href="https://github.com/kaankaltakkiran" target="_blank" rel="noopener noreferrer" class="mx-2"><img class="mt-lg-3" width="35" height="35" src="https://img.icons8.com/color/48/github--v1.png" alt="github--v1"/></a>
+          </p>
+        </div>
+      </div>
+  
+      <div class="row mt-3">
+        <div class="col text-center">
+          © 2023 Kaan Kaltakkıran
+        </div>
+         <a href="https://icons8.com" class="text-center text-decoration-none">Icon pack by Icons8</a>
+      </div>
+    </div>
+  </footer>
+  <!--! Footer End -->
+
+  <!-- Bootsrap Js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>    
+  <script src="./public/js/jquery.js"></script>   
+  <script src="./public/js/lightbox.js"></script> 
+  <script src="./public/js/main.js"></script>
+</body>
+</html>

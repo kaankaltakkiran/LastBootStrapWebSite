@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+     <!-- Krakter ayarı -->
+     <meta charset="UTF-8">
+     <!--  microsfoft tarayıcı -->
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- her ciahaza göre ayarlama scale zoom -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <!--Seo İçin-->
+       <meta name="author" content="Kaan Kaltakkıran">
+       <meta name="description"content="Container Satış">
+       <meta name="keywords"content="web,tasarım,container,satış">
+     <!-- Bootsrap Css -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+     <!-- icon css -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+      <!--  Ana Css -->
+     <link rel="stylesheet" href="./public/css/styles.css">
+           <!--  Ana LigthtBoxCss -->
+           <link rel="stylesheet" href="./public/css/lightbox.css">
+     <!--İcon-->
+     <link rel="icon" href="./public/images/Icon.png">
+    <title>Container</title>
+</head>
+<body>
+                  <!--!Navbar Start-->
+    <nav class="navbar navbar-expand-lg navbar bg-primary sticky-top" data-bs-theme="dark" id="mainNavbar">
+        <div class="container-fluid ">
+          <a class="navbar-brand text-uppercase ms-5 " title="Bootstrap Web Site" href="/index.html">Bootstrap</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#myNavbar" aria-controls="#myNavbar" aria-expanded="false" aria-label="menüyü açma kapama butonun">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="offcanvas offcanvas-end bg-primary" data-bs-theme="dark"  tabindex="-1" id="myNavbar" aria-labelledby="myLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title text-white" id="myLabel">Bootstrap</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Kapat">
+                </button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav ms-auto text-uppercase py-lg-2">
+                    <li class="nav-item me-2"><a href="/" class="nav-link active  btn-close-canvas">Anasayfa</a></li>
+                    <li class="nav-item me-2"><a href="/container.html" class="nav-link  btn-close-canvas">Container</a></li>
+                    <li class="nav-item me-2"><a href="/contact.html" class="nav-link  btn-close-canvas">İletişim</a></li>
+                    <li class="nav-item me-2"><a href="/contact3.html" class="nav-link  btn-close-canvas">Bize Ulaşın</a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--!Navbar End-->
+
+      <!--!Header Start-->
+      <div class="container mt-4">
+        <div class="row"> 
+          <div class="col-md-12">
+            <div class="alert alert-primary text-center p-4">
+              <h2 class="text-center text-primary display-3 fw-bolder">Container Ürünleri</h2>
+              <h5 class="text-danger fw-bold my-3">Bu web sitesi çalışma örneğidir. <strong class="text-decoration-underline">Gerçek bir site değildir.</strong></h5>
+              <div class="d-grid col-md-12 col-lg-6 mx-auto">
+              <a class="btn btn-primary btn-lg" href="container.html" role="button">Ürün Sayfasına Gitmek İçin Tıkla
+                <i class="bi bi-shop"></i>
+              </a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--!Header End-->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4 col-lg-3 my-3">
+          <img src="public/images/Bird-1.jpg" class="img-fluid rounded headerİmageSize">
+        </div>
+        <div class="col-sm-4 col-lg-6 my-3">
+<!--! Carousel Start -->
+<div id="carouselExampleCaptions" data-bs-ride="carousel" class="carousel slide carousel-fade">
+  <!--! Carousel indicators Start -->
+<div class="carousel-indicators">
+  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+</div>
+<!--! Carousel indicators End -->
+
+<!--! Carousel inner Start -->
+<div class="carousel-inner">
+  <div class="carousel-item active" data-bs-interval="2000">
+    <img src="./public/images/Wiew 1.jpg" class="d-block w-100 rounded " alt="Container Image-1">
+    <div class="carousel-caption d-none d-md-block">
+      <h5 class="text-danger fw-bolder CarouselItem1 fs-1">Birinci Manzara Resmi</h5>
+      <p class="text-white fw-bolder">Bu Birinci Manzara Resmi</p>
+    </div>
+  </div>
+  <div class="carousel-item" data-bs-interval="2000">
+    <img src="./public/images/Wiew 2.jpg" class="d-block w-100 rounded" alt="Container Image-2">
+    <div class="carousel-caption d-none d-md-block">
+        <h5 class="text-danger fw-bolder fs-1">İkinci Manzara Resmi</h5>
+        <p class="text-white fw-bolder">Bu İkinci Manzara Resmi</p>
+    </div>
+  </div>
+  <div class="carousel-item" data-bs-interval="2000">
+    <img src="./public/images/Wiew 3.jpg" class="d-block w-100 rounded" alt="Container Image-3">
+    <div class="carousel-caption d-none d-md-block">
+        <h5 class="text-danger fw-bolder CarouselItem3 fs-1">Üçüncü Manzara Resmi</h5>
+        <p class="text-white fw-bolder">Bu Üçüncü Manzara Resmi</p>
+    </div>
+  </div>
+</div>
+<!--! Carousel inner End -->
+<!--! Carousel Control Start -->
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Geri</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">İleri</span>
+</button>
+ <!--! Carousel Control End -->
+</div>
+        <!-- !Carousel End -->
+        </div>
+        <div class="col-sm-4 col-lg-3 my-3">
+          <img src="public/images/Bird-1.jpg" class="img-fluid rounded headerİmageSize">
+        </div>
+</div>
+</div>
+
+<!--! Footer Start -->
+<footer class="bg-light">
+  <div class="container mt-4">
+    <div class="row justify-content-center text-center">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-sm-left">
+        <h3><strong>Hakkımızda</strong></h3>
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In dignissimos non</p>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-5 mt-sm-0 text-sm-left">
+        <h3 ><strong>Ödeme Yöntemleri</strong></h3>
+        <img class="img-fluid me-2 " width="40" height="40" src="https://img.icons8.com/office/40/visa.png" alt="visa"/>
+        <img class="img-fluid me-2 " width="40" height="40" src="https://img.icons8.com/fluency/48/credit-card-front.png" alt="credit-card-front"/>
+        <img class="img-fluid me-2 " width="40" height="40" src="https://img.icons8.com/office/40/bank-card-back-side.png" alt="bank-card-back-side"/>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-md-left mt-5 mt-md-0">
+        <h3 ><strong>İletişim</strong></h3>
+        <h4><i class="bi bi-telephone text-primary"></i> 0507 66 00 884</h4>
+
+        <h4><i class="bi bi-envelope text-primary"></i> kaan@hotmail.com</h4>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-2 ml-auto text-lg-left mt-4 mt-sm-5 mt-lg-0 ">
+        <h3><strong>Sosyal Medya</strong></h3>
+        <p class="lead">
+          <a href="https://github.com/kaankaltakkiran" target="_blank" rel="noopener noreferrer" class="mx-2"><img width="35" height="35" src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook-new"/></a>
+          <a href="https://github.com/kaankaltakkiran" target="_blank" rel="noopener noreferrer" class="mx-2"><img width="35" height="35" src="https://img.icons8.com/fluency/48/twitter.png" alt="twitter"/></a>
+          <a href="https://github.com/kaankaltakkiran" target="_blank" rel="noopener noreferrer" class="mx-2"><img width="35" height="35" src="https://img.icons8.com/color/48/instagram-new--v1.png" alt="instagram-new--v1"/></a>
+          <a href="https://github.com/kaankaltakkiran" target="_blank" rel="noopener noreferrer" class="mx-2"><img class="mt-lg-3" width="35" height="35" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/></a>
+          <a href="https://github.com/kaankaltakkiran" target="_blank" rel="noopener noreferrer" class="mx-2"><img class="mt-lg-3" width="35" height="35" src="https://img.icons8.com/color/48/youtube-play.png" alt="youtube-play"/></a>
+          <a href="https://github.com/kaankaltakkiran" target="_blank" rel="noopener noreferrer" class="mx-2"><img class="mt-lg-3" width="35" height="35" src="https://img.icons8.com/color/48/github--v1.png" alt="github--v1"/></a>
+        </p>
+      </div>
+    </div>
+
+    <div class="row mt-3">
+      <div class="col text-center">
+        © 2023 Kaan Kaltakkıran
+      </div>
+       <a href="https://icons8.com" class="text-center text-decoration-none">Icon pack by Icons8</a>
+    </div>
+  </div>
+</footer>
+<!--! Footer End -->
+  <!-- Bootsrap Js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <script src="./public/js/jquery.js"></script>   
+  <script src="./public/js/lightbox.js"></script> 
+  <script src="./public/js/main.js"></script>
+</body>
+</html>
